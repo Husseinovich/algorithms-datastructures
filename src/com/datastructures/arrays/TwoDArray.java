@@ -17,11 +17,9 @@ public class TwoDArray {
 	};
 	*/
 		
-	double [][] a = new double [5][5];
-	a = Matrix.generateMatrix(5, 5);
+	double [][] a = Matrix.generateMatrix(5, 5);
 	
-	double [][] b = new double [5][5];
-	b = Matrix.generateMatrix(5, 5);
+	double [][] b = Matrix.generateMatrix(5, 5);
 	
 	System.out.println("Matrix A: ");
 	Matrix.printOut(a);
