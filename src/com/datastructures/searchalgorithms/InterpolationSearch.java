@@ -9,12 +9,12 @@ public class InterpolationSearch {
         DataSet data = new DataSet(1000000);
         int key = 99999;
 
-        System.out.println(binarySearch(data.data, key));
+        System.out.println(interpolationSearch(data.data, key));
 
 
     }
 
-    public static int binarySearch(int [] a, int key){
+    public static int interpolationSearch(int [] a, int key){
         int numOfTries = 0;
         int low = 0;
         int high = a.length - 1;
