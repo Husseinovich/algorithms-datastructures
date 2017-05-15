@@ -23,6 +23,8 @@ public class Test {
         Country country8 = new Country("Europe", 18000000);
         Country country9 = new Country("Africa", 18000000);
         Country country10 = new Country("Asia", 18000000);
+        Country country11 = new Country("Asia", 18000000);
+
 
         countries.add(country1);
         countries.add(country2);
@@ -34,6 +36,8 @@ public class Test {
         countries.add(country8);
         countries.add(country9);
         countries.add(country10);
+        countries.add(country11);
+        
 
         System.out.println("Total African Population =  " + expressions.getPopulation(countries, "Africa"));
 
@@ -43,9 +47,6 @@ public class Test {
      int target = 9;
      int [] res = twoSum(a, target);
      System.out.println(Arrays.toString(res));
-
-
-
     }
 
 
